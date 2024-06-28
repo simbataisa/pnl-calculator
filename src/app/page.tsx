@@ -56,7 +56,9 @@ const Home: React.FC = () => {
 
     // Calculate PnL
     const PnL = df["revenue"].sub(df["cost"]);
-    df.addColumn("PnL", PnL);
+    df.addColumn("PnL", PnL, { inplace: true });
+
+    df.print();
 
     const currentYear = new Date().getFullYear();
     const previousYear = currentYear - 1;

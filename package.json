@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/colors": "^7.0.2",
+    "@nextui-org/button": "^2.0.34",
+    "@nextui-org/input": "^2.2.2",
+    "@nextui-org/system": "^2.2.2",
+    "@nextui-org/theme": "^2.2.6",
+    "antd": "^5.18.3",
     "danfojs": "^1.1.2",
+    "framer-motion": "^11.2.12",
     "next": "14.2.4",
+    "pptxgenjs": "^3.12.0",
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.12.7"

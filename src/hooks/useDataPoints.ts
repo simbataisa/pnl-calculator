@@ -1,7 +1,6 @@
 // src/hooks/useDataPoints.ts
 import {SetStateAction, useEffect, useState} from 'react';
 import {DataPointDocument, getDatabase} from '@/rxdb/db';
-import {RxError} from "rxdb";
 
 export function useDataPoints() {
     const [dataPoints, setDataPoints] = useState<DataPointDocument[]>([]);
